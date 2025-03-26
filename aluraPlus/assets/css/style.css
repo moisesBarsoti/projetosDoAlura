@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    text-decoration: none;
+}
+
+:root {
+    /* Backgrounds */
+    --background: #00030C;
+    
+    /* Colors */
+    --white: #fff;
+    --grey: #c0c0c0;
+
+    /* Components Colors */
+    --button-blue: #167BF7;
+
+    /* Fonts */
+    --font-inter: "Inter", sans-serif;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--white);
+    font-size: 16px;
+    font-family: var(--font-inter);
+    font-weight: 400;
+}
+
+/* Main */
+main section#principal {
+    background-image: url(../img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+main section.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+}
+
+main section#principal h1 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+main section#principal a.container__botao {
+    display: block;
+    background-color: var(--button-blue);
+    color: var(--white);
+    border-radius: 8px;
+    padding: 1em;
+}
+
+main section#principal a#botao__secundario {
+    background-color: transparent;
+    border: solid 2px var(--white);
+}
+
+main section#principal p {
+    color: var(--grey);
+    font-size: 12px;
+}
