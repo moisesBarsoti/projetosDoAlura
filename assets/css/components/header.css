@@ -1,0 +1,20 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background: var(--white);
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+header span#cabecalho_hamburguer {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url('/assets/img/Menu.svg');
+}

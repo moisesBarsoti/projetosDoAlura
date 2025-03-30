@@ -1,0 +1,26 @@
+@import url('/assets/css/components/header.css'); @import url('/assets/css/components/root.css');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    /* Backgrounds */
+    --background: #EBECEE;
+
+    /* Colors */
+    --white: #fff;
+    /* Components */
+
+    /* Font */
+}
+
+body {
+    background: var(--background);
+}   
